@@ -1,0 +1,103 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.navbg
+{
+  background-color: rgba(43, 65, 92, 0.462);
+}
+.nametext
+{
+  margin-left: 30%;
+}
+.rigebg
+{
+background: url('https://img.freepik.com/free-photo/office-desk-workspace-bright-color-yellow-background_169016-38713.jpg')no-repeat;
+ background-size: 100%;
+ /*background-color: #99e1f5;*/
+}
+.rigester
+{
+  width: 500px;
+  margin-left: 35%;
+  margin-top: 5%;
+
+}
+.login
+{
+  width: 40%;
+  height:550px;
+  margin-left: 25%;
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.206);
+}
+.loginbtn
+{
+  margin-left: 40%;
+  margin-top: 3%;
+}
+.inputs
+{
+  background-color:aliceblue;
+  border: solid black;
+}
+.forgotPass
+{
+  width: 50%;
+  margin-left: 25%;
+}
+.logWel
+{
+  width:100px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (width < 750px) {
+
+  .login
+{
+  width: 80%;
+  height:500px;
+  margin-left: 10%;
+  margin-top: 5%;
+  
+}
+.rigebg
+{
+background: #d7fb61ee
+/*background-color: yellow;*/
+
+}
+
+}
